@@ -57,8 +57,8 @@ main{
     margin-top: 10px;
     height: 90%;
     width: 100%;
-    margin-left: 50px;
     border-radius: 15%;
+    margin-left: 60px;
 }
 
 .grad{
@@ -74,18 +74,17 @@ main{
 #twi{
     height: 100px;
     border-radius: 50%;
-    margin-left: 20px;
 }
 
 #ins{
     height: 100px;
     border-radius: 50%;
-    margin-left: 10px;
 }
 
 footer{
     height: 200px;
     background-color: #00accf;
+    display: flex;
 }
 
 #copy{
@@ -108,7 +107,6 @@ footer{
     margin-top: 10px;
     height:80%;
     width: 80%;
-    margin-left: 50px;
     border-radius: 15%;
 }
 
@@ -116,14 +114,12 @@ footer{
     background-color: #00accf;
     border-radius: 15%;
     margin-top: 20px;
-    margin-left: 60px;
 }
 
 #text_cel{
     background-color: #00accf;
     border-radius: 4%;
     margin-top: 15px;
-    margin-left: 60px;
 }
 
 #tit_bat{
@@ -141,8 +137,7 @@ footer{
 #bat{
     margin-top: 10px;
     height: 90%;
-    width: 100%;
-    margin-left: 50px;
+    width: 80%;
     border-radius: 15%;
 }
 
@@ -150,7 +145,6 @@ footer{
     margin-top: 10px;
     height:60%;
     width: 60%;
-    margin-left: 50px;
     border-radius: 15%;
 }
 
@@ -158,18 +152,54 @@ footer{
     background-color: #00accf;
     border-radius: 15%;
     margin-top: 20px;
-    margin-left: 60px;
 }
 
 #text_lic{
     background-color: #00accf;
     border-radius: 4%;
     margin-top: 15px;
-    margin-left: 60px;
 }
 
+#lav{
+    margin-top: 20px;
+    height:80%;
+    width: 80%;
+    border-radius: 15%;
+}
 
-a{
-    text-decoration: none;
-    
+#tit_lav{
+    background-color: #00accf;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+#text_lav{
+    background-color: #00accf;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+#mic{
+    margin-top: 20px;
+    height:60%;
+    width: 60%;
+    border-radius: 15%;
+}
+
+#tit_mic{
+    background-color: #00accf;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+#text_mic{
+    background-color: #00accf;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+@media  screen and (max-width: 1023px) {
+    #lap{
+        margin-left: 0;
+    }
 }
