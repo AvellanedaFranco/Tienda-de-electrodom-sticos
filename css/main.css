@@ -180,7 +180,7 @@ footer{
 }
 
 #mic{
-    margin-top: 20px;
+    margin-top: 40px;
     height:60%;
     width: 60%;
     border-radius: 15%;
@@ -189,7 +189,7 @@ footer{
 #tit_mic{
     background-color: #00accf;
     border-radius: 15%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #text_mic{
@@ -201,5 +201,15 @@ footer{
 @media  screen and (max-width: 1023px) {
     #lap{
         margin-left: 0;
+    }
+
+    header{
+        height: 220px;
+    }
+
+    .logo{
+        padding: 0;
+        margin: 0;
+        margin-left: 5px;
     }
 }
