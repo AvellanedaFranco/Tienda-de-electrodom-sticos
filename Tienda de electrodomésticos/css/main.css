@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    height: 200px;
+    width: 100%;
+    background-color: #050eff;
+    display: flex;
+    align-items: center;
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+}
+
+#logo{
+    height: 150px;
+    width: 400px;
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+}
+
+#reg{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: #7898ff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#tit_lap{
+    background-color: white;
+    border-radius: 15%;
+    margin-top: 20px;
+}
+
+#text_lap{
+    background-color: white;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+.menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#lap{
+    margin-top: 10px;
+    height: 90%;
+    width: 40%;
+    border-radius: 15%;
+    margin-left: 60px;
+}
+
+.grad{
+    height: 200px;
+    background-image: linear-gradient(to top, #050eff, #7898ff);
+}
+
+#face{
+    height: 100px;
+    border-radius: 50%;
+}
+
+#twi{
+    height: 100px;
+    border-radius: 50%;
+}
+
+#ins{
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer{
+    height: 200px;
+    background-color: #050eff;
+    display: flex;
+}
+
+.text-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#copy{
+    color: white;
+}
+
+#disclaimer{
+    color: white;
+    margin-right: 20px;
+}
+
+.reg-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#reg-foot{
+    text-decoration: none;
+    color: white;
+}
+
+#tien-foot{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+#cel{
+    margin-top: 10px;
+    height:80%;
+    width: 40%;
+    border-radius: 15%;
+}
+
+#tit_cel{
+    background-color: white;
+    border-radius: 15%;
+    margin-top: 20px;
+}
+
+#text_cel{
+    background-color: white;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+#tit_bat{
+    background-color: white;
+    border-radius: 15%;
+    margin-top: 20px;
+}
+
+#text_bat{
+    background-color: white;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+#bat{
+    margin-top: 10px;
+    height: 80%;
+    width: 40%;
+    border-radius: 15%;
+}
+
+#lic{
+    margin-top: 10px;
+    height:60%;
+    width: 40%;
+    border-radius: 15%;
+}
+
+#tit_lic{
+    background-color: white;
+    border-radius: 15%;
+    margin-top: 20px;
+}
+
+#text_lic{
+    background-color: white;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+#lav{
+    margin-top: 20px;
+    height:60%;
+    width: 40%;
+    border-radius: 15%;
+}
+
+#tit_lav{
+    background-color: white;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+#text_lav{
+    background-color: white;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+#mic{
+    margin-top: 40px;
+    height:60%;
+    width: 40%;
+    border-radius: 15%;
+}
+
+#tit_mic{
+    background-color: white;
+    border-radius: 15%;
+    margin-top: 40px;
+}
+
+#text_mic{
+    background-color: white;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+@media  screen and (max-width: 1023px) {
+    #lap{
+        margin-left: 0;
+    }
+
+    header{
+        height: 220px;
+    }
+
+    .logo{
+        padding: 0;
+        margin: 0;
+        margin-left: 5px;
+    }
+
+    .grad{
+        height: 120px;
+    }
+}
